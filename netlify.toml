@@ -1,9 +1,5 @@
 [build]
-  command = "npm install && (npm run build || true)"
   publish = ".output/public"
-
-[build.environment]
-  NODE_VERSION = "20"
 
 [[redirects]]
   from = "/*"
